@@ -1,0 +1,62 @@
+// compress: false, javascriptEnabled: true
+/* --------------------------------------------------------------
+/* MAIN LESS MIXINS AND FUNCTIONS - LESSHAT
+-------------------------------------------------------------- */
+@import 'less/_lesshat.less';
+/* --------------------------------------------------------------
+VARIABLES
+-------------------------------------------------------------- */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+    background: #FFFFFF;
+    color: #292929;
+}
+
+.main-logo-container {
+    padding: 4rem;
+    text-align: center;
+
+    & img {
+        max-width: 300px;
+    }
+}
+
+.main-text-container {
+    text-align: center;
+
+    & h2 {
+        font-weight: 300;
+        font-size: 1.5rem;
+    }
+}
+
+.section-content {
+    padding: 3rem;
+
+    & h1 {
+        font-size: 1.3rem;
+        line-height: 2.3rem;
+    }
+
+    & h4 {
+        font-size: 1.4rem;
+        margin-bottom: 1.2rem;
+    }
+
+}
+
+.section-logo {
+    padding: 1rem;
+}
+
+#fullpage {
+    div.section:nth-child(2n + 2) {
+        background: #f2f2f2;
+    }
+}
