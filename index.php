@@ -22,10 +22,12 @@
     <meta name="msapplication-TileColor" content="#FFFFFF">
     <meta name="msapplication-TileImage" content="img/ms-icon-144x144.png">
     <meta name="theme-color" content="#FFFFFF">
-    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
     <link rel="stylesheet" href="css/fullpage.min.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="favicon.ico"/>
+
 </head>
 
 <body>
@@ -36,22 +38,14 @@
                     <div class="main-logo-container col-12">
                         <img src="img/logo.png" alt="d1 limited" class="img-fluid" />
                     </div>
-                    <div class="main-text-container col-12">
-                        <h2>TIN1000004738186 | Barbados BB14004</h2>
-                    </div>
                 </div>
             </div>
         </div>
         <div class="section">
-            <div class="section-wrapper container-fluid">
+            <div class="section-wrapper container">
                 <div class="row justify-content-center align-items-center">
-                    <div class="section-content col-6">
-                        <h1>d1 Limited it is a holding company registered under the Laws of Barbados. Since 2013, has developed and managed several investments in Dubai, Panamá, Spain, United States and Venezuela. Currently, it is focused in Dubai, United Arab Emirates and in David, Panamá.</h1>
-                    </div>
-                    <div class="section-content col-6">
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1dpsXdyrju8F1Bz5zAe_FdPruOpHX5Geq" width="640" height="480" class="embed-responsive-item"></iframe>
-                        </div>
+                    <div class="section-content col-12">
+                        <h1 class="text-center">d1 Limited it is a holding company registered under the Laws of Barbados. Since 2013, has developed and managed several investments in Dubai, Panamá, Spain, United States and Venezuela. Currently, it is focused in David, Panamá.</h1>
                     </div>
                 </div>
             </div>
@@ -59,28 +53,25 @@
         <div class="section">
             <div class="section-wrapper container">
                 <div class="row justify-content-center align-items-center">
-                    <div class="section-content section-logo col-3">
-                        <img src="img/bastian-logo.png" alt="Bastian Limited" class="img-fluid" />
+                    <div class="section-content col-12">
+                        <img src="img/fullmap.png" alt="d1 limited" class="img-fluid img-fullmap" />
                     </div>
-                    <div class="section-content col-9">
-                        <h4>Dubai, United Arab Emirates</h4>
-                        <p>international procurement, which includes accommodations and airline ticketing as well as commercial supplies in and from Dubai, United Arab Emirates. This goods and services are provided and rendered by Bastián Limited1, a company created under the Laws of Ajman, United Arab Emirates, 1 with offices at JBC2 Tower,1806, Jumeirah Lakes Towers, Dubai.</p>
-                        <p>One recent example of this services by Bastián Limited, are aircraft charter services rendered to repatriate nationals worldwide during the COVID-19 pandemic.</p>
-                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <div class="section-wrapper container map-container">
 
-                </div>
-            </div>
-        </div>
-        <div class="section">
-            <div class="section-wrapper container">
                 <div class="row justify-content-center align-items-center">
-                    <div class="section-content section-logo col-3">
-                        <img src="img/quiteno-logo.png" alt="Bastian Limited" class="img-fluid" />
-                    </div>
-                    <div class="section-content col-9">
+                    <div class="section-content map-container2 col-12">
+                        <img src="img/quiteno-logo.png" alt="quiteño Country" class="img-fluid" />
                         <h4>David, Panamá</h4>
                         <p>housing project (250/300 houses) to be developed in 24.7105 acres located in David, Chiriquí Province, Panamá and bought trough Promotora Quiteño Country S.A., a company created under the Laws of Panamá and fully owned by d1.</p>
-                        <p>Once developed, houses will be sold to the Housing Ministry in Panamá under the Fondo Solidario de Vivienda, which has a price of US$70,000.00 per house. Time frame it is estimated between eighteen to twenty four months and net income should be US$4,000,000. <a>https://www.miviot.gob.pa/archivos/37436</a></p>
+                        <p>Once developed, houses will be sold to the Housing Ministry in Panamá under the Fondo Solidario de Vivienda, which has a price of US$70,000.00 per house. Time frame it is estimated between eighteen to twenty four months.</p>
+                        <a href="http://chiriquicountry.com/">
+                            <h6>www.chiriquicountry.com</h6>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -92,6 +83,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/fullpage.min.js"></script>
     <script type="text/javascript" src="js/functions.js"></script>
+    <?php /* <h2>TIN1000004738186 | Barbados BB14004</h2> */ ?>
 </body>
 
 </html>
